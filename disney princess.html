@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney Princess Character Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+
+<div class="logo">
+			
+
+						
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" id="left" alt="Logo" class="logo">
+
+	</div>	
+    
+<h1>Guess the Disney Princess Character</h1>	
+<marquee width="60%" direction="right" height="100px">
+
+<a href="https://www.disney.in/">Disney India</a>
+
+</marquee>
+ <nav>
+    <ul>
+      <li><a href="https://www.disney.com/">Home</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Walt_Disney_Pictures">About</a></li>
+      <li class="dropdown">
+        <a href="#">Links</a>
+        <ul class="dropdown-content">
+          <li><a href="https://www.disney.com/" target="_blank">Disney.com</a></li>
+          <li><a href="https://www.disneyplus.com" target="_blank">Disney+</a></li>
+          <li><a href="https://www.disney.in/shop" target="_blank">disney shops</a></li>
+          <li><a href="https:https://www.disney.in/parks" target="_blank">disney parks</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  </header>
+
+  <main>
+<div class="column left">
+						<div class="rating">
+							<label for="range-input"
+								>How much do you like Disney?
+							</label>
+							<input
+								type="range"
+								id="range-input"
+								min="0"
+								max="10"
+							/>
+							<!-- Default values -->
+							<span id="rate">5</span>
+							<div id="range-output">I somewhat like Disney.</div>
+						</div>
+
+
+
+						
+    <div class="game-container">
+      <div class="character-box">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Disney%2B_logo.svg" alt="Character Image" id="character-img">
+      </div>
+      <div class="guess-box">
+        <input type="text" id="guess-input" placeholder="Enter your guess">
+        <button id="check-btn">Check</button>
+        <p id="message"></p>
+      </div>
+    </div>
+  </main>
+<footer>
+		<div class="container footer-container">
+			<div>
+				<small>made by <a href="mailto:nithyasreeravi305@gmail.com">R Nithyasree</a></small>
+			</div>
+			<div>
+				<small>for web development project</small>
+			</div>
+			<div>
+				<small>
+					all rights belong to &copy;
+					a Walt Disney company. &copy; Disney 2023
+				</small>
+			</div>
+		</div>
+	</footer>
+  <script src="script.js"></script>
+</body>
+</html>
